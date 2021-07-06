@@ -1,0 +1,92 @@
+.button {
+	padding: 10px 20px;
+	border-radius: 10px;
+	color: #fefcfb;
+	cursor: pointer;
+	box-shadow: -1px 1px 3px #0d1f2d;
+	border: none;
+	font-size: 16px;
+	background-color: #0d1f2d;
+	font-weight: bold;
+
+	&.mini {
+		font-size: 10px;
+		padding: 4px 8px;
+	}
+
+	&.tiny {
+		font-size: 12px;
+		padding: 6px 12px;
+	}
+
+	&.small {
+		font-size: 14px;
+		padding: 8px 16px;
+	}
+
+	&.large {
+		font-size: 18px;
+		padding: 12px 24px;
+	}
+
+	&.big {
+		font-size: 20px;
+		padding: 14px 28px;
+	}
+
+	&.huge {
+		font-size: 22px;
+		padding: 16px 32px;
+	}
+
+	&.massive {
+		font-size: 24px;
+		padding: 18px 36px;
+	}
+
+	&.primary {
+		background-color: #3f8efc;
+	}
+
+	&.secondary {
+		background-color: #d63af9;
+	}
+
+	&.danger {
+		background-color: #ef233c;
+	}
+
+	&.safe {
+		background-color: #08c45d;
+	}
+
+	&.invert {
+		background-color: transparent;
+		border: 3px solid #0d1f2d;
+		color: #0d1f2d;
+
+		&.primary {
+			border-color: #3f8efc;
+			color: #3f8efc;
+		}
+
+		&.secondary {
+			border-color: #d63af9;
+			color: #d63af9;
+		}
+
+		&.danger {
+			border-color: #ef233c;
+			color: #ef233c;
+		}
+
+		&.safe {
+			border-color: #08c45d;
+			color: #08c45d;
+		}
+	}
+
+	&:hover {
+		box-shadow: -2px 2px 3px #0d1f2d;
+	}
+}
