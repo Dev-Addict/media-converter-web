@@ -1,1 +1,2 @@
-export * from './home.page';
+export * from './errors';
+export * from './home';

@@ -1,8 +1,8 @@
 import React from 'react';
 
-import {Logo} from '../assets';
-import {Button, Filler, Heading, Link, Page} from '../components';
-import {HeadingTag, Size} from '../types';
+import {Logo} from '../../assets';
+import {Button, Filler, Heading, Link, Page} from '../../components';
+import {HeadingTag, Size} from '../../types';
 import styles from './home.module.scss';
 
 export const HomePage = () => {
@@ -20,7 +20,7 @@ export const HomePage = () => {
 			<Heading tag={HeadingTag.H3} safe>
 				Fast and Secure
 			</Heading>
-			<Filler flex={0} />
+			<Filler flex={0} minHeight={20} />
 			<Button size={Size.BIG} primary>
 				Select Files
 			</Button>
