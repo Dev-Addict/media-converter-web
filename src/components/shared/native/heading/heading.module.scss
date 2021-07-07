@@ -1,0 +1,19 @@
+.heading {
+	color: #0d1f2d;
+
+	&.primary {
+		color: #3f8efc;
+	}
+
+	&.secondary {
+		color: #d63af9;
+	}
+
+	&.danger {
+		color: #ef233c;
+	}
+
+	&.safe {
+		color: #08c45d;
+	}
+}

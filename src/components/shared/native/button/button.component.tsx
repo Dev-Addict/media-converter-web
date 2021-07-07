@@ -1,8 +1,8 @@
 import React, {DetailedHTMLProps, FC, HTMLAttributes} from 'react';
 
-import {renderClasses} from '../../../utils';
+import {renderClasses} from '../../../../utils';
 import styles from './button.module.scss';
-import {Size} from '../../../types';
+import {Size} from '../../../../types';
 
 interface Props
 	extends DetailedHTMLProps<

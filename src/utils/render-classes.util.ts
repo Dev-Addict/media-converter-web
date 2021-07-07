@@ -2,10 +2,7 @@ interface Classes {
 	[key: string]: boolean | undefined;
 }
 
-export const renderClasses = (
-	defaultClass: string,
-	classes = {} as Classes
-) => {
+export const renderClasses = (defaultClass = '', classes = {} as Classes) => {
 	let result = defaultClass.trim();
 
 	for (const [className, condition] of Object.entries(classes)) {
